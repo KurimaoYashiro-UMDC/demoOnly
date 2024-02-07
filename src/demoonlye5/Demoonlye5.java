@@ -5,6 +5,8 @@
  */
 package demoonlye5;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Student
@@ -19,6 +21,13 @@ public class Demoonlye5 {
         System.out.println("Hello World");
         int a = 1;
         System.out.println(a);
+        
+        Scanner scn = new Scanner(System.in);
+        
+        System.out.println("Name nimo?:");
+        String name = scn.nextLine();
+        
+        System.out.println("Imohang Name kay: " + name);
            
       
     }
