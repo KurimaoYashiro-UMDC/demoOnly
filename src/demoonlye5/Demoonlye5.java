@@ -16,7 +16,10 @@ public class Demoonlye5 {
      */
     public static void main(String[] args) {
        
-        //project file>right clk>versioning>
+        System.out.println("Hello World");
+        int a = 1;
+        System.out.println(a);
+           
       
     }
     
